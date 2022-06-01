@@ -12,11 +12,15 @@ body{
     font-size: 18px;
     background-repeat: no-repeat, no-repeat;
     background-position: right 50vw bottom 20vh, left 45vw top 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card-conteiner{
     background-color: white;
-    margin: 170px auto 50px;
+    /* margin: 170px auto 50px; */
     width: 330px;
     height: 380px;
     border-radius: 15px;
@@ -47,6 +51,8 @@ body{
 }
 
 .name{
+    font-size: 18px;
+    display: inline;
     font-weight: 700;
     color: var(--very-dark-desaturated-blue);
 }
